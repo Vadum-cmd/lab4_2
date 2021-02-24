@@ -8,7 +8,7 @@ class Markets:
         self.categories = categories
     
     def __str__(self):
-        return """Supermarket {0} has an area of {1} m**2 and has the following categories: {2}."""\
+        return """Supermarket {0} has an area of {1} m2 and has the following categories: {2}."""\
             .format(self.name, self.area, ', '.join(self.categories))
 
 
