@@ -1,4 +1,7 @@
 class Markets:
+    """
+    Make a class for working with data about markets.
+    """
     def __init__(self, name, area, categories):
         self.name = name
         self.area = area
